@@ -1,0 +1,36 @@
+{
+    "eth_ucy_da":
+    {
+        "eth":
+        {
+            "train":40,
+            "val":30,
+            "test":70
+        },
+        "hotel":
+        {
+            "train":231,
+            "val":69,
+            "test":301
+        },
+        "univ":
+        {
+            "train":749,
+            "val":160,
+            "test":947
+        },
+        "zara1":
+        {
+            "train":503,
+            "val":85,
+            "test":588
+        },
+        "zara2":
+        {
+            "train":713,
+            "val":189,
+            "test":921
+        }
+    },
+    "stcorwd":0
+}
