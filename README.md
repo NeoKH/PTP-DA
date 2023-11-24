@@ -7,9 +7,9 @@ Official PyTorch code for the paper "Adaptive Pedestrian Trajectory Prediction v
 
 ## Environment
 
-OS: Linux / RTX 2080Ti
-Python == 3.7.9
-PyTorch == 1.7.1+cu110
+- OS: Linux / RTX 2080Ti
+- Python == 3.7.9
+- PyTorch == 1.7.1+cu110
 
 ## Dependencies
 
