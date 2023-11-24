@@ -1,0 +1,9 @@
+scikit-learn<=1.1.2
+seaborn==0.12.1
+networkx<=2.8.6 # 使用3.0以上版本 eth_ucy_graph.py L95 会报错
+protobuf<=3.19.4
+tqdm
+timm
+natsort
+visualdl==2.4.1
+tensorboard
