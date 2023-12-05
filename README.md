@@ -45,23 +45,24 @@ We use the ADE and FDE as the metrics. Here we give the whole results of 20 expe
 
 ## Comparative Experiments
 
-We compare our method to naive augmentations which not leverage any target information. Here are 5 groups results:
+We compare our method to naive augmentations which not leverage any target information. Here are ADE/FDE results of 5 selected groups:
 
 |Method|A2B|B2C|C2D|D2E|E2A|AVG|
 | ----| ----| ----| ----|----| ----| ----|
-|STGCNN|
-|+ Random|
-|+ Ours|
+|STGCNN|1.12/1.49|1.18/1.97|0.54/0.98|0.45/0.57|0.93/1.37|0.84/1.28|
+|+ Random|0.92/1.10|0.55/0.97|0.37/0.67|0.43/0.67|1.79/2.26|0.81/1.13|
+|+ Ours|0.80/0.91|0.55/0.97|0.36/0.65|0.43/0.69|0.70/1.15|0.57/0.87|
 
 
 # Visualizations
 
 ## Method workflow
 
+![Method workflow](./figs/fig01-workflow.png)
 
 ## Statistics
 
-coming soon.
+![Angle Distribution](./figs/fig02-angle_distribution.png)
 
 ## Cases analysis
 
