@@ -19,6 +19,12 @@ Install the dependencies from the requirements.txt:
 pip install -r requirements.txt
 ```
 
+## Train
+
+```bash
+sh scripts/train.sh
+```
+
 # Metrics
 
 We use the ADE and FDE as the metrics. Here we give the whole results of 20 experiment groups.
