@@ -72,4 +72,17 @@ We compare our method to naive augmentations which not leverage any target infor
 
 ## Cases analysis
 
-coming soon.
+![Case1](./figs/fig03_case1_small.png)
+
+![Case2](./figs/fig04_case2_small.png)
+
+The source domain and the target domain have completely opposite road structures. Without our method, the model would still predict based on the direction of the source domain. Meanwhile, our method successful transfer of knowledge to the target domain.
+
+![Case3](./figs/fig05_case3_small.png)
+
+Case3 shows group walking pattern.
+
+![Case4](./figs/fig06_case4_small.png)
+
+Case4 shows conflict walking pattern.
+
